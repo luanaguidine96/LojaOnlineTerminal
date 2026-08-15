@@ -1,0 +1,23 @@
+name: Compilar programa C
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+
+      - name: Compilar C
+        run: gcc "main (1).c" -o LojaOnline.exe
+
+      - name: Guardar executável
+        uses: actions/upload-artifact@v4
+        with:
+          name: LojaOnline
+          path: LojaOnline.exe
