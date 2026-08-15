@@ -82,6 +82,8 @@ O sistema possui um catálogo inicial de doces, como:
 ##  Objetivo
 
 Este projeto foi desenvolvido como atividade escolar com o objetivo de colocar em prática os conhecimentos aprendidos em programação e desenvolver um sistema interativo utilizando a linguagem C.
+
+
 <p align="center">
   <img src="https://i.pinimg.com/originals/95/d4/0c/95d40ca0f622758d6a729bd7dcc33190.gif" width="500">
 </p>
