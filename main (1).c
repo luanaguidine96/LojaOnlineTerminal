@@ -1,3 +1,4 @@
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -64,14 +65,14 @@ void atualizar_leds(struct Fruta frutas[]); /* envia o estado do estoque para o 
 
 /*fim das declarações do void*/
 
-
+/*LUANA*/
 int main(void) {
  struct Fruta frutas[NUM_FRUTAS] = {
   {"* Brigadeiro tradicional ", 2.50f, 20},
   {"* Brownie ", 3.00f, 5},
   {"* Trufa ", 5.00f, 30},
   {"* Pipoca de sal", 5.00f, 8},
-  
+ 
  };//preenchendo os valores da caixinha
 
  abrir_serial(); /* tenta conectar com o Arduino */
@@ -138,7 +139,7 @@ void atualizar_leds(struct Fruta frutas[]) {
 }
 
 
-
+/*LUANA*/
 
 
 /* void cabecalho(void)*/
@@ -194,7 +195,7 @@ void menu_principal(struct Fruta frutas[]) {
 }
 
 
-//Rhadassa
+
 
 /* void tela_loja(struct Fruta frutas[])*/
 void tela_loja(struct Fruta frutas[]) {
@@ -244,9 +245,9 @@ void tela_loja(struct Fruta frutas[]) {
   }
  }
 }
+/*vodigo 3 FIM */
 
-
-//CODIGO 2/* void comprar_fruta(struct Fruta frutas[], int idx) */ //PAULO E MATEUS
+void comprar_fruta(struct Fruta frutas[], int idx) */
 void comprar_fruta(struct Fruta frutas[], int idx) {
  //idx é uma variavel tipo o i no contador
 
@@ -322,9 +323,9 @@ void comprar_fruta(struct Fruta frutas[], int idx) {
  }
 
 }
+//fim codigo 4
 
-
-//CODIGO 3 luan e adrian
+//CODIGO 5
 
 void tela_caixa(struct Fruta frutas[]) {
  int op;
@@ -385,7 +386,7 @@ void tela_caixa(struct Fruta frutas[]) {
 }
 
 
-//CODIGO 4 //Davi Moreira
+//CODIGO 6
 /* void tela_cambio(void)*/
 void tela_cambio(struct Fruta frutas[]) {
  int op;
@@ -461,7 +462,7 @@ void tela_cambio(struct Fruta frutas[]) {
 }
 
 
-/* void tela_extrato(void) */ //YARA, ELAINE E LARISSA
+/* void tela_extrato(void) */
 /* Função que exibe o extrato da conta e permite pagar o carrinho */
 void tela_extrato(struct Fruta frutas[]) {
  int conf; // Armazena a confirmação do usuário para realizar o pagamento
