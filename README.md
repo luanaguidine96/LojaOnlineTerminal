@@ -89,6 +89,11 @@ Este projeto foi desenvolvido como atividade escolar com o objetivo de colocar e
 </p>
 
 
-#  Autoria
 
-Projeto desenvolvido por **Luana Bosco Guidine**.
+---
+18/09/2026
+---
+**Luana Guidine**
+
+Estudante de Desenvolvimento de Sistemas
+Foco em Java, Desenvolvimento Web e Ciência da Computação
